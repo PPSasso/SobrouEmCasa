@@ -13,6 +13,7 @@ import EditarPerfil from '../views/EditarPerfil.vue'
 import AlterarSenha from '../views/AlterarSenha.vue'
 import ProcurarDoacao from '../views/ProcurarDoacao.vue'
 import DetalheDoacao from '../views/DetalheDoacao.vue'
+import TelaMapa from '../views/TelaMapa.vue'
 
 
 const routes: Array<RouteRecordRaw> = [
@@ -90,6 +91,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/DetalheDoacao',
     name: 'DetalheDoacao',
     component: DetalheDoacao
+  },
+  {
+    path: '/TelaMapa',
+    name: 'TelaMapa',
+    component: TelaMapa
   }
 ]
 

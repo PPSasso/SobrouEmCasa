@@ -52,8 +52,7 @@ export default defineComponent({
   components: {
       IonPage
   }, setup() {
-    return {
-    }
+    return {}
   }
 });
 </script>

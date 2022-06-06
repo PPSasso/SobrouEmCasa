@@ -8,7 +8,7 @@ export interface State {
   doacoes: { 
     id: string; 
     title: string; 
-    description: string; 
+    description: string;
     dataDoacao: string;
     status: string;
     ONG: string;
