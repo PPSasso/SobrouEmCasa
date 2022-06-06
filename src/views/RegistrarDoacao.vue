@@ -48,14 +48,14 @@
               </ion-col>
             </ion-row>
           </ion-grid> 
-
+  
           <ion-item color="light"  class="inputCadastro">
             <ion-label position="floating">Endereço:</ion-label>
             <ion-input  type="text" required v-model="Endereco" />
           </ion-item>
 
           <ion-button @click="this.$router.push('/HomePageDoador')" fill="undefined">
-          <ion-img id="EdicaoButton" src="../../assets/images/FinalizarCadastro.png"></ion-img>
+          <ion-img id="EdicaoButton" src="../../assets/images/FinalizarCadastro.svg"></ion-img>
         </ion-button>
 
         </toolbar-layout-arrow>

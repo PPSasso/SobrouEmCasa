@@ -9,7 +9,8 @@ import CadastroFisico from '../views/CadastroFisico.vue'
 import CadastroJuridico from '../views/CadastroJuridico.vue'
 import HomePageJuridico from '../views/HomePageJuridico.vue'
 import RegistrarDoacao from '../views/RegistrarDoacao.vue'
-import EditarPerfil from '../views/EditarPerfil.vue'
+import EditarPerfilJuridico from '../views/EditarPerfilJuridico.vue'
+import EditarPerfilFisico from '../views/EditarPerfilFisico.vue'
 import AlterarSenha from '../views/AlterarSenha.vue'
 import ProcurarDoacao from '../views/ProcurarDoacao.vue'
 import DetalheDoacao from '../views/DetalheDoacao.vue'
@@ -73,9 +74,14 @@ const routes: Array<RouteRecordRaw> = [
     component: RegistrarDoacao
   },
   {
-    path: '/EditarPerfil',
-    name: 'EditarPerfil',
-    component: EditarPerfil
+    path: '/EditarPerfilFisico',
+    name: 'EditarPerfilFisico',
+    component: EditarPerfilFisico
+  },
+  {
+    path: '/EditarPerfilJuridico',
+    name: 'EditarPerfilJuridico',
+    component: EditarPerfilJuridico
   },
   {
     path: '/AlterarSenha',

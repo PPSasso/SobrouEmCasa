@@ -4,34 +4,22 @@
         <toolbar-layout>
             <div class="center">
               <h1>Alterar Senha</h1>
-              <div>
-                <h2>Senha Antiga</h2>
-                <div id="senhaAntiga">
-                  <ion-item class="ion-margin">
-                  <ion-input placeholder="********"></ion-input>
-                  </ion-item>
-                </div>
-              </div>
+              <ion-item color="light"  class="inputCadastro">
+                  <ion-label position="floating">Senha Antiga:</ion-label>
+                  <ion-input type="password" required v-model="SenhaAntiga" />
+              </ion-item>
 
-              <div>
-                <h2>Nova Senha</h2>
-                <div id="novaSenha">
-                  <ion-item class="ion-margin">
-                  <ion-input placeholder="********"></ion-input>
-                  </ion-item>
-                </div>
-              </div>
-              
-              <div>
-                <h2>Confirmar Nova Senha</h2>
-                <div id="confirmarSenha">
-                  <ion-item class="ion-margin">
-                  <ion-input placeholder="********"></ion-input>
-                  </ion-item>
-                </div>
-              </div>
+              <ion-item color="light"  class="inputCadastro">
+                  <ion-label position="floating">Senha Nova:</ion-label>
+                  <ion-input type="password" required v-model="SenhaAntiga" />
+              </ion-item>
 
-              <ion-button class="ion-margin" color="danger">Alterar Senha</ion-button>
+              <ion-item color="light"  class="inputCadastro">
+                  <ion-label position="floating">Confirmar Senha Nova:</ion-label>
+                  <ion-input type="password" required v-model="SenhaAntiga" />
+              </ion-item>
+
+              <ion-button @click="this.$router.push('/HomePageDoador')" class="ion-margin" color="danger">Alterar Senha</ion-button>
             </div>
             </toolbar-layout>
       </ion-content>

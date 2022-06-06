@@ -6,6 +6,7 @@
             <h2 class="ion-text-center">Jaqueta Usada</h2>
             <p>Categoria: Roupas e acessórios</p>
             <p>Jaqueta usada e muito bem conservada</p>
+            <ion-img id="VerNoMapaButton" src="../../assets/images/VerNoMapa.svg"></ion-img>
         </toolbar-layout-arrow>
       </ion-content>
       <project-footer></project-footer>
@@ -36,6 +37,12 @@ export default defineComponent({
    width: 100%;
    max-height: 300px;
    margin: 0%;
+}
+#VerNoMapaButton{
+  height: 300px;
+   width: 300px;
+   margin-left: 35px;
+   margin-top: 59px;
 }
 
 </style>

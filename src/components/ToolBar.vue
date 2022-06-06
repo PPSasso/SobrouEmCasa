@@ -49,7 +49,7 @@ export default{
             menuController.open("app-menu")
         },
         goToHomePage(){
-            if(this.$router.currentRoute.value.path.includes("Doador")){
+            if(this.$router.currentRoute.value.path.includes("Doador") || this.$router.currentRoute.value.path.includes("Fisico")){
                 this.$router.push("/HomePageDoador")
             }
             else{

@@ -41,6 +41,60 @@
                             <ion-label position="floating">Finalidade Instituição (Max 150 caracteres):</ion-label>
                             <ion-textarea maxlength="150" rows="5" v-model="FinalidadeInstituicao"></ion-textarea>
                         </ion-item>
+                        <ion-item  color="light"  class="ion-margin">
+                            <ion-label class="select-categ">Preferência 1</ion-label>
+                            <ion-select interface="action-sheet" :interface-options="options">
+                            <ion-select-option class="select-option" value="eletrodomesticos">Eletrodomésticos</ion-select-option>
+                            <ion-select-option class="select-option" value="moveis">Móveis</ion-select-option>
+                            <ion-select-option class="select-option" value="utilidades-domesticas">Utilidades domésticas</ion-select-option>
+                            <ion-select-option class="select-option" value="livros-revistas">Livros e revistas</ion-select-option>
+                            <ion-select-option class="select-option" value="brinquedos-jogos">Brinquedos e jogos</ion-select-option>
+                            <ion-select-option class="select-option" value="roupas-acessorios">Roupas e acessórios</ion-select-option>
+                            <ion-select-option class="select-option" value="alimentos">Alimentos</ion-select-option>
+                            <ion-select-option class="select-option" value="higiene-pessoal">Higiene pessoal</ion-select-option>
+                            <ion-select-option class="select-option" value="produtos-limpeza">Produtos de limpeza</ion-select-option>
+                            <ion-select-option class="select-option" value="roupas-cama">Roupas de cama</ion-select-option>
+                            <ion-select-option class="select-option" value="calçados">Calçados</ion-select-option>
+                            <ion-select-option class="select-option" value="itens-tecnologia">Itens de tecnologia</ion-select-option>
+                            <ion-select-option class="select-option" value="outros">Outros</ion-select-option>
+                            </ion-select>
+                        </ion-item>
+                        <ion-item  color="light"  class="ion-margin">
+                            <ion-label class="select-categ">Preferência 2</ion-label>
+                            <ion-select interface="action-sheet" :interface-options="options">
+                            <ion-select-option class="select-option" value="eletrodomesticos">Eletrodomésticos</ion-select-option>
+                            <ion-select-option class="select-option" value="moveis">Móveis</ion-select-option>
+                            <ion-select-option class="select-option" value="utilidades-domesticas">Utilidades domésticas</ion-select-option>
+                            <ion-select-option class="select-option" value="livros-revistas">Livros e revistas</ion-select-option>
+                            <ion-select-option class="select-option" value="brinquedos-jogos">Brinquedos e jogos</ion-select-option>
+                            <ion-select-option class="select-option" value="roupas-acessorios">Roupas e acessórios</ion-select-option>
+                            <ion-select-option class="select-option" value="alimentos">Alimentos</ion-select-option>
+                            <ion-select-option class="select-option" value="higiene-pessoal">Higiene pessoal</ion-select-option>
+                            <ion-select-option class="select-option" value="produtos-limpeza">Produtos de limpeza</ion-select-option>
+                            <ion-select-option class="select-option" value="roupas-cama">Roupas de cama</ion-select-option>
+                            <ion-select-option class="select-option" value="calçados">Calçados</ion-select-option>
+                            <ion-select-option class="select-option" value="itens-tecnologia">Itens de tecnologia</ion-select-option>
+                            <ion-select-option class="select-option" value="outros">Outros</ion-select-option>
+                            </ion-select>
+                        </ion-item>
+                        <ion-item  color="light"  class="ion-margin">
+                            <ion-label class="select-categ">Preferência 3</ion-label>
+                            <ion-select interface="action-sheet" :interface-options="options">
+                            <ion-select-option class="select-option" value="eletrodomesticos">Eletrodomésticos</ion-select-option>
+                            <ion-select-option class="select-option" value="moveis">Móveis</ion-select-option>
+                            <ion-select-option class="select-option" value="utilidades-domesticas">Utilidades domésticas</ion-select-option>
+                            <ion-select-option class="select-option" value="livros-revistas">Livros e revistas</ion-select-option>
+                            <ion-select-option class="select-option" value="brinquedos-jogos">Brinquedos e jogos</ion-select-option>
+                            <ion-select-option class="select-option" value="roupas-acessorios">Roupas e acessórios</ion-select-option>
+                            <ion-select-option class="select-option" value="alimentos">Alimentos</ion-select-option>
+                            <ion-select-option class="select-option" value="higiene-pessoal">Higiene pessoal</ion-select-option>
+                            <ion-select-option class="select-option" value="produtos-limpeza">Produtos de limpeza</ion-select-option>
+                            <ion-select-option class="select-option" value="roupas-cama">Roupas de cama</ion-select-option>
+                            <ion-select-option class="select-option" value="calçados">Calçados</ion-select-option>
+                            <ion-select-option class="select-option" value="itens-tecnologia">Itens de tecnologia</ion-select-option>
+                            <ion-select-option class="select-option" value="outros">Outros</ion-select-option>
+                            </ion-select>
+                        </ion-item>
                         <ion-item color="light"  class="inputCadastro">
                             <ion-label position="floating">Telefone:</ion-label>
                             <ion-input type="text" required v-model="Telefone" />

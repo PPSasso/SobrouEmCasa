@@ -78,11 +78,6 @@ ion-item{
   align-items: center;
   flex-flow: column;
 }
- 
-h3 {
-  padding: 30px 50px;
-  text-align: center;
-}
 
 #clique-cadastro {
   text-align: center;

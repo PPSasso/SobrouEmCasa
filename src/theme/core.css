@@ -3,7 +3,11 @@ ion-toolbar {
     --background: var(--ion-toolbar-color);
 }
 
-
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../../public/assets/fonts/Pacifico.ttf') format('truetype');
+  font-weight: normal;
+}
 
 #ImagemDoacaoDetalhe{ 
   height: 100px;
@@ -17,6 +21,7 @@ ion-toolbar {
 
 #EdicaoButton{
 margin: 25px;
+margin-top: 10px;
 }
 
 #anexarImagem{
@@ -24,9 +29,9 @@ text-align: left;
 margin-left: 12px;
 }
 #PlusButton{
-margin: 0px; 
-height:80px;
-width: 80px;
+margin: 15px; 
+height:60px;
+width: 60px;
 
 }
 

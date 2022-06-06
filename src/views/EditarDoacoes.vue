@@ -45,7 +45,7 @@
               <ion-img id="ImagemDoacaoDetalhe" :src="doacao.source" :alt="doacao.title"></ion-img>
             </ion-col>
             <ion-col>
-                <ion-img   id="PlusButton" src="../../assets/images/PlusButton.png"></ion-img>
+                <ion-img   id="PlusButton" src="../../assets/images/PlusButton.svg"></ion-img>
             </ion-col>
           </ion-row>
         </ion-grid> 
@@ -57,12 +57,12 @@
             <ion-input :value="doacao.endereco" type="text" required v-model="Endereco" />
         </ion-item>
 
-        <ion-button @click="this.$router.push('/SuasDoacoes')" fill="undefined">
-          <ion-img   id="EdicaoButton" src="../../assets/images/ConcluirEdicao.png"></ion-img>
+        <ion-button id="ConcluirEdicao" @click="this.$router.push('/SuasDoacoes')" fill="undefined">
+          <ion-img   id="EdicaoButton" src="../../assets/images/ConcluirEdicao.svg"></ion-img>
         </ion-button>
         
         <ion-button @click="this.$router.push('/SuasDoacoes')" fill="undefined">
-          <ion-img   id="EdicaoButton" src="../../assets/images/ApagarAnuncio.png"></ion-img>
+          <ion-img   id="EdicaoButton" src="../../assets/images/ApagarAnuncio.svg"></ion-img>
         </ion-button>
 
       </toolbar-layout-arrow>

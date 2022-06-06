@@ -94,7 +94,7 @@ export default defineComponent({
   
 }
 #doacaoSlot{
-  width: 300px;
+  width: 90%;
   height: 100%; 
   margin-block-end: 10px;
   --background: white;

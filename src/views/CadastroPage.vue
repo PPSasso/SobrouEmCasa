@@ -21,7 +21,7 @@
           Pessoa Física
           <img src="/../../assets/images/user-alt.png">
         </ion-button>
-      </div>
+      </div> 
       
       </ion-content>
     </div>    
